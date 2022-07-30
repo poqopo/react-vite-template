@@ -5,5 +5,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
-  alias: [{ find: '@', replacement: resolve(__dirname, 'src/') }],
+  resolve: {
+    alias: [{ find: '@', replacement: resolve(__dirname, 'src/') }],
+  },
 });
