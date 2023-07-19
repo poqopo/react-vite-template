@@ -21,6 +21,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-extraneous-dependencies': 'off',
   },
 };
